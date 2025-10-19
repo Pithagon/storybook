@@ -1,0 +1,1 @@
+import{r as t}from"./iframe-Cfz2vXeE.js";function i(){const r=t.useRef(new Set),u=t.useCallback((e,c,...n)=>{const o=window.setTimeout(e,c,...n);return r.current.add(o),o},[]),s=t.useCallback(e=>{clearTimeout(e),r.current.delete(e)},[]);return t.useEffect(()=>()=>{for(const e of r.current)clearTimeout(e)},[]),{safeSetTimeout:u,safeClearTimeout:s}}export{i as u};

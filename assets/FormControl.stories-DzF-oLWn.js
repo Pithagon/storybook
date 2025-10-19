@@ -1,0 +1,35 @@
+import{d as M,j as t,r as N}from"./iframe-Cfz2vXeE.js";import{F as o,T as P}from"./FormControl-qjqH6r5D.js";import{C as w}from"./Checkbox-BHvnb8mU.js";import{T as W}from"./TextInput-hhRVe1zi.js";import"./preload-helper-D9Z9MdNV.js";import"./TextInputWrapper-A6-jRRIw.js";import"./index.esm-BZRgk2PO.js";import"./index.esm-CN46I9JX.js";import"./BoxWithFallback-BKnPTtUo.js";import"./defaultSxProp-CTX1ZhUd.js";import"./constants-gM483c7h.js";import"./Box-BgR2Y17o.js";import"./sx-BSyIY0hE.js";import"./index-C-OhZ25x.js";import"./Link-Dm7wEaum.js";import"./useRefObjectAsForwardedRef-DQwuL9aT.js";import"./useSlots-BdLPLn0-.js";import"./warning-CmA-h2kW.js";import"./_VisuallyHidden-CKJB9yD0.js";import"./invariant-Dix8OlSS.js";import"./Heading-Axc3-HQM.js";import"./useFocusZone-BvuuCBlY.js";import"./useProvidedRefOrCreate-Pg3blKRP.js";import"./focus-zone-ZDpdvBtN.js";import"./event-listener-signal-Pp6mWBoo.js";import"./user-agent-DiCyFeS1.js";import"./iterate-focusable-elements-QzROm7ZI.js";import"./Truncate-DUc3hzfC.js";import"./index.esm-C1WN7kEu.js";import"./Tooltip-BuVThTi0.js";import"./useSafeTimeout-BD3cO5TN.js";import"./KeybindingHint-C2Jv3TM3.js";import"./environment-DRRHKtsv.js";import"./Text-BbpDCwQY.js";import"./anchored-position-Cz4CQZsC.js";import"./Spinner-CP1_WO7z.js";import"./VisuallyHidden-BShfgJrZ.js";import"./index-D3vEWZM2.js";import"./Stack--yR6jd9X.js";import"./useRenderForcingRef-B3HiJhUh.js";import"./IconButton-qXcIkMuV.js";import"./ButtonBase-BlGPm-3t.js";import"./AriaStatus-CzZh6U-X.js";import"./Announce-rCuV3jiI.js";import"./CounterLabel-DnnBMwbH.js";import"./Button-3sCteC9V.js";import"./InputLabel-BWKIqz-Q.js";import"./FilteredActionList-Lzw7hr5X.js";import"./useProvidedStateOrCreate-BEKIGSkE.js";import"./SkeletonBox-ClHTzzEx.js";import"./useFeatureFlag-paATTdb3.js";import"./useAnchoredPosition-IlJWxGCn.js";import"./useResizeObserver-CkcKl7_1.js";import"./useIsomorphicLayoutEffect-C_Bsqbyc.js";import"./Overlay-Du2pzphD.js";import"./Portal-BKCn1yDJ.js";import"./useOnOutsideClick-CaQvIa_9.js";import"./Token-B_OnxjPX.js";import"./Textarea-DREKwwM3.js";import"./Octicon-B0A15aaM.js";import"./LinkButton-D-EvgNXE.js";import"./useResponsiveValue-Cmf8jyBD.js";import"./index-CEFMyGLK.js";import"./useMergedRefs-CMoMpGtu.js";import"./useMnemonics-D4gqZtvW.js";import"./AnchoredOverlay-DQ90Zw6u.js";import"./useFocusTrap-CL_Yl_fl.js";const et={title:"Components/FormControl",argTypes:{disabled:{type:"boolean"},required:{type:"boolean"},label:{type:"string"},caption:{type:"string"},variant:{control:{type:"radio"},options:["error","success","warning"]},variantMessage:{type:"string"}}},$=[{text:"zero",id:0},{text:"one",id:1},{text:"two",id:2},{text:"three",id:3},{text:"four",id:4},{text:"five",id:5},{text:"six",id:6},{text:"seven",id:7},{text:"twenty",id:20},{text:"twentyone",id:21}],p=()=>{const m=M.c(1);let e;return m[0]===Symbol.for("react.memo_cache_sentinel")?(e=t.jsxs(o,{required:!0,children:[t.jsx(o.Label,{children:"Form Input Label"}),t.jsx(o.Caption,{children:"This is a caption"}),t.jsx(w,{})]}),m[0]=e):e=m[0],e},c=m=>{const e=M.c(26),{label:_,caption:q,required:I,disabled:L,variant:S,variantMessage:V}=m,k=_===void 0?"Input":_,d=q===void 0?"This is the caption":q,F=I===void 0?!1:I,g=L===void 0?!1:L,u=S===void 0?"success":S,f=V===void 0?"Success!":V;let b;e[0]===Symbol.for("react.memo_cache_sentinel")?(b=[...$].slice(0,5),e[0]=b):b=e[0];const[r,D]=N.useState(b);let x;e[1]!==r?(x=R=>{D(r.filter(E=>E.id!==R))},e[1]=r,e[2]=x):x=e[2];const j=x;let v,C;e[3]===Symbol.for("react.memo_cache_sentinel")?(C=t.jsx(o.Label,{children:"Name"}),v=t.jsx(W,{}),e[3]=v,e[4]=C):(v=e[3],C=e[4]);let i;e[5]!==k?(i=t.jsx(o.Label,{children:k}),e[5]=k,e[6]=i):i=e[6];let n;e[7]!==d?(n=d&&t.jsx(o.Caption,{children:d}),e[7]=d,e[8]=n):n=e[8];let h;e[9]===Symbol.for("react.memo_cache_sentinel")?(h=t.jsx(w,{}),e[9]=h):h=e[9];let s;e[10]!==u||e[11]!==f?(s=f!==""&&u&&t.jsx(o.Validation,{variant:u,children:f}),e[10]=u,e[11]=f,e[12]=s):s=e[12];let a;e[13]!==g||e[14]!==F||e[15]!==i||e[16]!==n||e[17]!==s?(a=t.jsxs(o,{disabled:g,required:F,children:[C,v,i,n,h,s]}),e[13]=g,e[14]=F,e[15]=i,e[16]=n,e[17]=s,e[18]=a):a=e[18];let T;e[19]===Symbol.for("react.memo_cache_sentinel")?(T=t.jsx(o.Label,{children:"Default label"}),e[19]=T):T=e[19];let l;e[20]!==j||e[21]!==r?(l=t.jsxs(o,{children:[T,t.jsx(P,{tokens:r,onTokenRemove:j})]}),e[20]=j,e[21]=r,e[22]=l):l=e[22];let y;return e[23]!==a||e[24]!==l?(y=t.jsxs("form",{children:[a,l]}),e[23]=a,e[24]=l,e[25]=y):y=e[25],y};p.__docgenInfo={description:"",methods:[],displayName:"Default"};c.__docgenInfo={description:"",methods:[],displayName:"Playground",props:{disabled:{required:!1,tsType:{name:"boolean"},description:"",defaultValue:{value:"false",computed:!1}},required:{required:!1,tsType:{name:"boolean"},description:"",defaultValue:{value:"false",computed:!1}},label:{required:!1,tsType:{name:"string"},description:"",defaultValue:{value:"'Input'",computed:!1}},caption:{required:!1,tsType:{name:"string"},description:"",defaultValue:{value:"'This is the caption'",computed:!1}},variant:{required:!1,tsType:{name:"union",raw:"'error' | 'success'",elements:[{name:"literal",value:"'error'"},{name:"literal",value:"'success'"}]},description:"",defaultValue:{value:"'success'",computed:!1}},variantMessage:{required:!1,tsType:{name:"string"},description:"",defaultValue:{value:"'Success!'",computed:!1}}}};p.parameters={...p.parameters,docs:{...p.parameters?.docs,source:{originalSource:`() => <FormControl required={true}>
+    <FormControl.Label>Form Input Label</FormControl.Label>
+    <FormControl.Caption>This is a caption</FormControl.Caption>
+    <Checkbox />
+  </FormControl>`,...p.parameters?.docs?.source}}};c.parameters={...c.parameters,docs:{...c.parameters?.docs,source:{originalSource:`({
+  label = 'Input',
+  caption = 'This is the caption',
+  required = false,
+  disabled = false,
+  variant = 'success',
+  variantMessage = 'Success!'
+}: ArgTypes) => {
+  const [tokens, setTokens] = useState([...mockTokens].slice(0, 5));
+  const onTokenRemove: (tokenId: string | number) => void = tokenId => {
+    setTokens(tokens.filter(token => token.id !== tokenId));
+  };
+  return <form>
+      <FormControl disabled={disabled} required={required}>
+        <FormControl.Label>Name</FormControl.Label>
+        <TextInput />
+
+        <FormControl.Label>{label}</FormControl.Label>
+        {caption && <FormControl.Caption>{caption}</FormControl.Caption>}
+        <Checkbox />
+
+        {
+      // eslint-disable-next-line @typescript-eslint/no-unnecessary-condition
+      variantMessage !== '' && variant && <FormControl.Validation variant={variant}>{variantMessage}</FormControl.Validation>}
+      </FormControl>
+      <FormControl>
+        <FormControl.Label>Default label</FormControl.Label>
+        <TextInputWithTokens tokens={tokens} onTokenRemove={onTokenRemove} />
+      </FormControl>
+    </form>;
+}`,...c.parameters?.docs?.source}}};const tt=["Default","Playground"];export{p as Default,c as Playground,tt as __namedExportsOrder,et as default};

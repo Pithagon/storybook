@@ -1,0 +1,26 @@
+import{d as u,c as A,j as e}from"./iframe-Cfz2vXeE.js";import{A as m}from"./index-C-OhZ25x.js";import{S as h}from"./index.esm-C1WN7kEu.js";import{T as I}from"./TextInput-hhRVe1zi.js";import{A as a}from"./ActionMenu-VmSenYrX.js";import"./preload-helper-D9Z9MdNV.js";import"./Link-Dm7wEaum.js";import"./useRefObjectAsForwardedRef-DQwuL9aT.js";import"./useSlots-BdLPLn0-.js";import"./warning-CmA-h2kW.js";import"./_VisuallyHidden-CKJB9yD0.js";import"./invariant-Dix8OlSS.js";import"./Heading-Axc3-HQM.js";import"./useFocusZone-BvuuCBlY.js";import"./useProvidedRefOrCreate-Pg3blKRP.js";import"./focus-zone-ZDpdvBtN.js";import"./event-listener-signal-Pp6mWBoo.js";import"./user-agent-DiCyFeS1.js";import"./iterate-focusable-elements-QzROm7ZI.js";import"./BoxWithFallback-BKnPTtUo.js";import"./defaultSxProp-CTX1ZhUd.js";import"./constants-gM483c7h.js";import"./index.esm-BZRgk2PO.js";import"./index.esm-CN46I9JX.js";import"./Box-BgR2Y17o.js";import"./sx-BSyIY0hE.js";import"./Truncate-DUc3hzfC.js";import"./Tooltip-BuVThTi0.js";import"./useSafeTimeout-BD3cO5TN.js";import"./KeybindingHint-C2Jv3TM3.js";import"./environment-DRRHKtsv.js";import"./Text-BbpDCwQY.js";import"./anchored-position-Cz4CQZsC.js";import"./Spinner-CP1_WO7z.js";import"./VisuallyHidden-BShfgJrZ.js";import"./index-D3vEWZM2.js";import"./Stack--yR6jd9X.js";import"./useRenderForcingRef-B3HiJhUh.js";import"./IconButton-qXcIkMuV.js";import"./ButtonBase-BlGPm-3t.js";import"./AriaStatus-CzZh6U-X.js";import"./Announce-rCuV3jiI.js";import"./CounterLabel-DnnBMwbH.js";import"./Button-3sCteC9V.js";import"./TextInputWrapper-A6-jRRIw.js";import"./useResponsiveValue-Cmf8jyBD.js";import"./useProvidedStateOrCreate-BEKIGSkE.js";import"./useMnemonics-D4gqZtvW.js";import"./AnchoredOverlay-DQ90Zw6u.js";import"./useFocusTrap-CL_Yl_fl.js";import"./useAnchoredPosition-IlJWxGCn.js";import"./useResizeObserver-CkcKl7_1.js";import"./useIsomorphicLayoutEffect-C_Bsqbyc.js";import"./Overlay-Du2pzphD.js";import"./Portal-BKCn1yDJ.js";import"./useOnOutsideClick-CaQvIa_9.js";import"./useFeatureFlag-paATTdb3.js";const x="prc-FilteredSearch-FilteredSearch-SlkPS",f={FilteredSearch:x};function d(i){const t=u.c(10);let r,o,n;t[0]!==i?({children:r,className:o,...n}=i,t[0]=i,t[1]=r,t[2]=o,t[3]=n):(r=t[1],o=t[2],n=t[3]);let s;t[4]!==o?(s=A(f.FilteredSearch,o),t[4]=o,t[5]=s):s=t[5];let p;return t[6]!==r||t[7]!==n||t[8]!==s?(p=e.jsx("div",{...n,className:s,children:r}),t[6]=r,t[7]=n,t[8]=s,t[9]=p):p=t[9],p}d.__docgenInfo={description:`@deprecated A new filter component is in progress.
+Until the new filter component is ready, you can use Button + TextInput + ActionList to reproduce this pattern.`,methods:[],displayName:"FilteredSearch"};const Ft={title:"Deprecated/Components/FilteredSearch",component:d},l=()=>{const i=u.c(2);let t;i[0]===Symbol.for("react.memo_cache_sentinel")?(t=e.jsx(a.Button,{as:"summary",children:"Filter"}),i[0]=t):t=i[0];let r;return i[1]===Symbol.for("react.memo_cache_sentinel")?(r=e.jsxs(d,{children:[e.jsxs(a,{children:[t,e.jsx(a.Overlay,{children:e.jsxs(m,{children:[e.jsx(m.Item,{children:"Item 1"}),e.jsx(m.Item,{children:"Item 2"}),e.jsx(m.Item,{children:"Item 3"})]})})]}),e.jsx(I,{"aria-label":"Filtered search",leadingVisual:h})]}),i[1]=r):r=i[1],r},c=i=>{const t=u.c(5);let r;t[0]===Symbol.for("react.memo_cache_sentinel")?(r=e.jsx(a.Button,{as:"summary",children:"Filter"}),t[0]=r):r=t[0];let o,n;t[1]===Symbol.for("react.memo_cache_sentinel")?(o=e.jsxs(a,{children:[r,e.jsx(a.Overlay,{children:e.jsxs(m,{children:[e.jsx(m.Item,{children:"Item 1"}),e.jsx(m.Item,{children:"Item 2"}),e.jsx(m.Item,{children:"Item 3"})]})})]}),n=e.jsx(I,{"aria-label":"Filtered search",leadingVisual:h}),t[1]=o,t[2]=n):(o=t[1],n=t[2]);let s;return t[3]!==i?(s=e.jsxs(d,{...i,children:[o,n]}),t[3]=i,t[4]=s):s=t[4],s};c.args={};c.argTypes={};l.__docgenInfo={description:"",methods:[],displayName:"Default"};c.__docgenInfo={description:"",methods:[],displayName:"Playground"};l.parameters={...l.parameters,docs:{...l.parameters?.docs,source:{originalSource:`() => <FilteredSearch>
+    <ActionMenu>
+      <ActionMenu.Button as="summary">Filter</ActionMenu.Button>
+      <ActionMenu.Overlay>
+        <ActionList>
+          <ActionList.Item>Item 1</ActionList.Item>
+          <ActionList.Item>Item 2</ActionList.Item>
+          <ActionList.Item>Item 3</ActionList.Item>
+        </ActionList>
+      </ActionMenu.Overlay>
+    </ActionMenu>
+    <TextInput aria-label="Filtered search" leadingVisual={SearchIcon} />
+  </FilteredSearch>`,...l.parameters?.docs?.source}}};c.parameters={...c.parameters,docs:{...c.parameters?.docs,source:{originalSource:`args => <FilteredSearch {...args}>
+    <ActionMenu>
+      <ActionMenu.Button as="summary">Filter</ActionMenu.Button>
+      <ActionMenu.Overlay>
+        <ActionList>
+          <ActionList.Item>Item 1</ActionList.Item>
+          <ActionList.Item>Item 2</ActionList.Item>
+          <ActionList.Item>Item 3</ActionList.Item>
+        </ActionList>
+      </ActionMenu.Overlay>
+    </ActionMenu>
+    <TextInput aria-label="Filtered search" leadingVisual={SearchIcon} />
+  </FilteredSearch>`,...c.parameters?.docs?.source}}};const Lt=["Default","Playground"];export{l as Default,c as Playground,Lt as __namedExportsOrder,Ft as default};

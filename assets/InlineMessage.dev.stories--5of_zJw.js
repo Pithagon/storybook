@@ -1,0 +1,3 @@
+import{d as t,j as r}from"./iframe-Cfz2vXeE.js";import{I as n}from"./InlineMessage-DDmsKysV.js";import"./preload-helper-D9Z9MdNV.js";import"./index.esm-C1WN7kEu.js";const p={title:"Experimental/Components/InlineMessage/Dev",component:n},e=()=>{const s=t.c(1);let a;return s[0]===Symbol.for("react.memo_cache_sentinel")?(a=r.jsx(n,{variant:"unavailable",children:"An example inline message"}),s[0]=a):a=s[0],a};e.__docgenInfo={description:"",methods:[],displayName:"DevDefault"};e.parameters={...e.parameters,docs:{...e.parameters?.docs,source:{originalSource:`() => {
+  return <InlineMessage variant="unavailable">An example inline message</InlineMessage>;
+}`,...e.parameters?.docs?.source}}};const c=["DevDefault"];export{e as DevDefault,c as __namedExportsOrder,p as default};

@@ -1,0 +1,1 @@
+import{d as s,j as p}from"./iframe-Cfz2vXeE.js";const c="prc-ToggleSwitch-StoryWrapper-qknuL",a={StoryWrapper:c},i=e=>{const r=s.c(2),{children:o}=e;let t;return r[0]!==o?(t=p.jsx("div",{className:a.StoryWrapper,children:o}),r[0]=o,r[1]=t):t=r[1],t};i.__docgenInfo={description:"",methods:[],displayName:"ToggleSwitchStoryWrapper"};export{i as T};

@@ -1,0 +1,1 @@
+import{r as o,j as r}from"./iframe-Cfz2vXeE.js";import{B as n}from"./ButtonBase-BlGPm-3t.js";const p=o.forwardRef(({children:a,as:e="a",...s},t)=>r.jsx(n,{as:e,ref:t,...s,children:a}));p.__docgenInfo={description:"",methods:[],displayName:"LinkButton",props:{as:{defaultValue:{value:"'a'",computed:!1},required:!1}}};export{p as L};

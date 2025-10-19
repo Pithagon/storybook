@@ -1,0 +1,3 @@
+import{j as t}from"./iframe-Cfz2vXeE.js";import{P as a}from"./Pagination-DyiyLSbR.js";import"./preload-helper-D9Z9MdNV.js";import"./model-BPbuF8Ix.js";import"./useResponsiveValue-Cmf8jyBD.js";const m={title:"Components/Pagination/Dev",component:a},e=()=>t.jsx(a,{pageCount:15,currentPage:2,onPageChange:o=>o.preventDefault(),showPages:{narrow:!1}});e.__docgenInfo={description:"",methods:[],displayName:"DevDefault"};e.parameters={...e.parameters,docs:{...e.parameters?.docs,source:{originalSource:`() => <Pagination pageCount={15} currentPage={2} onPageChange={e => e.preventDefault()} showPages={{
+  narrow: false
+}} />`,...e.parameters?.docs?.source}}};const g=["DevDefault"];export{e as DevDefault,g as __namedExportsOrder,m as default};

@@ -1,0 +1,1 @@
+import{d,r as p}from"./iframe-Cfz2vXeE.js";function m(a,e,c){const t=d.c(5),[f,u]=p.useState(c),r=a??f;let s;t[0]!==e?(s=n=>{u(n),e&&e(n)},t[0]=e,t[1]=s):s=t[1];const i=s;let o;return t[2]!==i||t[3]!==r?(o=[r,i],t[2]=i,t[3]=r,t[4]=o):o=t[4],o}export{m as u};

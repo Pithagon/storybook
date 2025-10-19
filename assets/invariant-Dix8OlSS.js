@@ -1,0 +1,1 @@
+const s=function(i,n,...r){if(!i){let e;if(n===void 0)e=new Error("Minified exception occurred; use the non-minified dev environment for the full error message and additional helpful warnings.");else{let o=0;const t=n.replace(/%s/g,()=>r[o++]);e=new Error(t),e.name="Invariant Violation"}throw e}};export{s as i};

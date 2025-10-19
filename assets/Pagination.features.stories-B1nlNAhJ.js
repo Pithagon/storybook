@@ -1,0 +1,15 @@
+import{j as a,r as c}from"./iframe-Cfz2vXeE.js";import{P as n}from"./Pagination-DyiyLSbR.js";import{R as d}from"./ReactRouterLink-bkCleT0Q.js";import"./preload-helper-D9Z9MdNV.js";import"./model-BPbuF8Ix.js";import"./useResponsiveValue-Cmf8jyBD.js";const w={title:"Components/Pagination/Features",component:n},o=()=>a.jsx(n,{pageCount:15,currentPage:5,marginPageCount:4,onPageChange:e=>e.preventDefault()}),t=()=>a.jsx(n,{pageCount:15,currentPage:5,showPages:!1,onPageChange:e=>e.preventDefault()}),r=()=>a.jsxs(a.Fragment,{children:[a.jsx(n,{pageCount:15,currentPage:5,showPages:{narrow:!1},onPageChange:e=>e.preventDefault()}),a.jsx("p",{children:"Page numbers are hidden on narrow viewports."})]});r.parameters={viewport:{defaultViewport:"small"}};const s=()=>a.jsx(n,{pageCount:15,currentPage:5,surroundingPageCount:4,onPageChange:e=>e.preventDefault()}),g=()=>{const[e,p]=c.useState(2);return a.jsx(n,{pageCount:15,currentPage:e,onPageChange:(i,u)=>{i.preventDefault(),p(u)},renderPage:({number:i,...u})=>a.jsx(d,{to:`#${i}`,...u})})};o.__docgenInfo={description:"",methods:[],displayName:"LargerPageCountMargin"};t.__docgenInfo={description:"",methods:[],displayName:"HidePageNumbers"};r.__docgenInfo={description:"",methods:[],displayName:"HidePageNumbersByViewport"};s.__docgenInfo={description:"",methods:[],displayName:"HigherSurroundingPageCount"};g.__docgenInfo={description:"",methods:[],displayName:"RenderLinks"};o.parameters={...o.parameters,docs:{...o.parameters?.docs,source:{originalSource:"() => <Pagination pageCount={15} currentPage={5} marginPageCount={4} onPageChange={e => e.preventDefault()} />",...o.parameters?.docs?.source}}};t.parameters={...t.parameters,docs:{...t.parameters?.docs,source:{originalSource:"() => <Pagination pageCount={15} currentPage={5} showPages={false} onPageChange={e => e.preventDefault()} />",...t.parameters?.docs?.source}}};r.parameters={...r.parameters,docs:{...r.parameters?.docs,source:{originalSource:`() => <>
+    <Pagination pageCount={15} currentPage={5} showPages={{
+    narrow: false
+  }} onPageChange={e => e.preventDefault()} />
+    <p>Page numbers are hidden on narrow viewports.</p>
+  </>`,...r.parameters?.docs?.source}}};s.parameters={...s.parameters,docs:{...s.parameters?.docs,source:{originalSource:"() => <Pagination pageCount={15} currentPage={5} surroundingPageCount={4} onPageChange={e => e.preventDefault()} />",...s.parameters?.docs?.source}}};g.parameters={...g.parameters,docs:{...g.parameters?.docs,source:{originalSource:`() => {
+  const [page, setPage] = useState(2);
+  return <Pagination pageCount={15} currentPage={page} onPageChange={(e, n) => {
+    e.preventDefault();
+    setPage(n);
+  }} renderPage={({
+    number,
+    ...props
+  }) => <ReactRouterLikeLink to={\`#\${number}\`} {...props} />} />;
+}`,...g.parameters?.docs?.source}}};const _=["LargerPageCountMargin","HidePageNumbers","HidePageNumbersByViewport","HigherSurroundingPageCount","RenderLinks"];export{t as HidePageNumbers,r as HidePageNumbersByViewport,s as HigherSurroundingPageCount,o as LargerPageCountMargin,g as RenderLinks,_ as __namedExportsOrder,w as default};
